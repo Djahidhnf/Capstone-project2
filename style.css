@@ -1,0 +1,143 @@
+.container1 {
+    background-color:lightblue;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.Hero-header {
+    font-family: 'Play', sans-serif;
+    color: white;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 80px;
+}
+
+span {
+    text-align: center;
+    font-size: large;
+    position: relative;
+    bottom: 20px;
+}
+
+.Hero-coding-img {
+    position: relative;
+    top: 100px;
+}
+
+.Hero-male-img {
+    position: relative;
+    bottom: 30px;
+    left: 100px;
+}
+
+.container2{
+    color: gray;
+    font-family: 'Play', sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.about-me {
+    
+    grid-column-start: 2;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.container2 > p {
+    padding-top: 20px;
+}
+
+h2 {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 900;
+}
+
+
+.container3{
+    color: gray;
+    font-family: 'Play', sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+.container3 > h2 {
+    padding-top: 100px;
+    grid-column-start: 2;
+}
+
+.coding-img {
+    grid-row-start: 2;
+    grid-column-start: 1;
+    padding-left: 130px;
+}
+
+.coding-text {
+    grid-row-start: 2;
+    grid-column-start: 2;
+    margin-top: 20px;
+}
+
+.sports-img {
+    grid-row-start: 3;
+    grid-column-start: 3;
+    padding-left: 30px;
+}
+
+.sports-text {
+    grid-row-start: 3;
+    grid-column-start: 2;
+    margin-top: 50px;
+}
+
+.business-img {
+    grid-row-start: 4;
+    grid-column-start: 1;
+    padding-left: 130px;
+}
+
+.business-text {
+    grid-row-start: 4;
+    grid-column-start: 2;
+    margin-top: 50px;
+}
+
+.container4 {
+    padding-top: 100px;
+    font-family: 'Play', sans-serif;
+    color: gray;
+    text-align: center;
+}
+
+.container4 > p {
+    padding-top: 20px;
+}
+
+.container5 {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    font-family: 'Play', sans-serif;
+    color: gray;
+}
+.contact-img {
+    display: inline;
+    float: left;
+    position: relative;
+    left: 300px;
+    top: 140px;
+}
+
+.contact-text {
+    display: inline;
+    float: left;
+    position: relative;
+    left: 350px;
+    top: 120px;
+}
+
+.container5 > p {
+    text-align: left;
+}
