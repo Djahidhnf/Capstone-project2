@@ -141,3 +141,15 @@ h2 {
 .container5 > p {
     text-align: left;
 }
+
+.contact-text {
+    position: relative;
+    left: 410px;
+}
+
+
+.contact-img {
+    position: relative;
+    top: 120px;
+    left: 400px;
+}
