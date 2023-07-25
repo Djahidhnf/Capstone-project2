@@ -121,7 +121,7 @@ ul {
 
 
 
-@media (max-width: 1400px) {
+@media (max-width: 770px) {
     .Hero > div {
         height: 85vh;
     }
