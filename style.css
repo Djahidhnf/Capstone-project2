@@ -45,6 +45,7 @@ section.Hobbies {
 }
 
 
+
 section.Hobbies .text {
     text-align: left;
 }
@@ -75,6 +76,8 @@ section.Hobbies .text {
     align-self: center;
     align-items: center;
 }
+
+
 
 .business.container {
     display: flex;
@@ -118,9 +121,9 @@ ul {
 
 
 
-@media (max-width: 770px) {
+@media (max-width: 48rem) {
     .Hero > div {
-        height: 500px;
+        height: 85vh;
     }
 
     .h1 {
@@ -160,8 +163,6 @@ ul {
     .business.container {
         flex-direction: column;
     }
-
-
 
 
 }
